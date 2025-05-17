@@ -12,8 +12,6 @@ function love.update(dt)
 end
 
 function love.draw()
-    love.graphics.print(pos.x, 100, 100)
-
     love.graphics.setPointSize(5);
     for position = 1, 200, 0.5 do
         love.graphics.setColor(1,0,0)
